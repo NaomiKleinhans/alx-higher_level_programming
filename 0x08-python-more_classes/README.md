@@ -26,8 +26,7 @@ You are not allowed to import any module
 File: 0-rectangle.py
 
 
-1. Real definition of a rectangle
-mandatory
+1. Real definition of a rectanglemandatory
 Write a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
 
 Private instance attribute: width:
@@ -49,9 +48,7 @@ You are not allowed to import any module
 
 2. Area and Perimeter
 mandatory
-Write a class Rectangle that defines a rectangle by: (based on 1-rectangle.py)
-
-Private instance attribute: width:
+Write a class Rectangle that defines a rectangle by: (based on 1-rectangle.py) Private instance attribute: width:
 property def width(self): to retrieve it
 property setter def width(self, value): to set it:
 width must be an integer, otherwise raise a TypeError exception with the message width must be an integer
@@ -74,8 +71,7 @@ You are not allowed to import any module
 mandatory
 Write a class Rectangle that defines a rectangle by: (based on 2-rectangle.py)
 
-Private instance attribute: width:
-property def width(self): to retrieve it
+Private instance attribute: width: property def width(self): to retrieve it
 property setter def width(self, value): to set it:
 width must be an integer, otherwise raise a TypeError exception with the message width must be an integer
 if width is less than 0, raise a ValueError exception with the message width must be >= 0
@@ -87,8 +83,7 @@ if height is less than 0, raise a ValueError exception with the message height m
 Instantiation with optional width and height: def __init__(self, width=0, height=0):
 Public instance method: def area(self): that returns the rectangle area
 Public instance method: def perimeter(self): that returns the rectangle perimeter:
-if width or height is equal to 0, perimeter has to be equal to 0
-print() and str() should print the rectangle with the character #: (see example below)
+if width or height is equal to 0, perimeter has to be equal to 0print() and str() should print the rectangle with the character #: (see example below)
 if width or height is equal to 0, return an empty string
 You are not allowed to import any module
 
@@ -111,10 +106,8 @@ if height is less than 0, raise a ValueError exception with the message height m
 Instantiation with optional width and height: def __init__(self, width=0, height=0):
 Public instance method: def area(self): that returns the rectangle area
 Public instance method: def perimeter(self): that returns the rectangle perimeter:
-if width or height is equal to 0, perimeter has to be equal to 0
-print() and str() should print the rectangle with the character #: (see example below)
-if width or height is equal to 0, return an empty string
-repr() should return a string representation of the rectangle to be able to recreate a new instance by using eval() (see example below)
+if width or height is equal to 0, perimeter has to be equal to 0print() and str() should print the rectangle with the character #: (see example below)
+if width or height is equal to 0, return an empty stringrepr() should return a string representation of the rectangle to be able to recreate a new instance by using eval() (see example below)
 You are not allowed to import any module
 
 4-rectangle.py
@@ -135,10 +128,8 @@ property setter def height(self, value): to set it:
 height must be an integer, otherwise raise a TypeError exception with the message height must be an integer
 if height is less than 0, raise a ValueError exception with the message height must be >= 0
 Instantiation with optional width and height: def __init__(self, width=0, height=0):
-Public instance method: def area(self): that returns the rectangle area
-Public instance method: def perimeter(self): that returns the rectangle perimeter:
-if width or height is equal to 0, perimeter has to be equal to 0
-print() and str() should print the rectangle with the character #:
+Public instance method: def area(self): that returns the rectangle areaPublic instance method: def perimeter(self): that returns the rectangle perimeter:
+if width or height is equal to 0, perimeter has to be equal to 0print() and str() should print the rectangle with the character #:
 if width or height is equal to 0, return an empty string
 repr() should return a string representation of the rectangle to be able to recreate a new instance by using eval()
 Print the message Bye rectangle... (... being 3 dots not ellipsis) when an instance of Rectangle is deleted
@@ -154,8 +145,7 @@ Write a class Rectangle that defines a rectangle by: (based on 5-rectangle.py)
 
 Private instance attribute: width:
 property def width(self): to retrieve it
-property setter def width(self, value): to set it:
-width must be an integer, otherwise raise a TypeError exception with the message width must be an integer
+property setter def width(self, value): to set it: width must be an integer, otherwise raise a TypeError exception with the message width must be an integer
 if width is less than 0, raise a ValueError exception with the message width must be >= 0
 Private instance attribute: height:
 property def height(self): to retrieve it
@@ -169,13 +159,11 @@ Decremented during each instance deletion
 Instantiation with optional width and height: def __init__(self, width=0, height=0):
 Public instance method: def area(self): that returns the rectangle area
 Public instance method: def perimeter(self): that returns the rectangle perimeter:
-if width or height is equal to 0, perimeter has to be equal to 0
-print() and str() should print the rectangle with the character #:
+if width or height is equal to 0, perimeter has to be equal to 0print() and str() should print the rectangle with the character #:
 if width or height is equal to 0, return an empty string
 repr() should return a string representation of the rectangle to be able to recreate a new instance by using eval()
 Print the message Bye rectangle... (... being 3 dots not ellipsis) when an instance of Rectangle is deleted
 You are not allowed to import any module
-
 6-rectangle.py
 
 
@@ -200,12 +188,10 @@ Decremented during each instance deletion
 Public class attribute print_symbol:
 Initialized to #
 Used as symbol for string representation
-Can be any type
-Instantiation with optional width and height: def __init__(self, width=0, height=0):
+Can be any typeInstantiation with optional width and height: def __init__(self, width=0, height=0):
 Public instance method: def area(self): that returns the rectangle area
 Public instance method: def perimeter(self): that returns the rectangle perimeter:
-if width or height is equal to 0, perimeter has to be equal to 0
-print() and str() should print the rectangle with the character(s) stored in print_symbol:
+if width or height is equal to 0, perimeter has to be equal to 0print() and str() should print the rectangle with the character(s) stored in print_symbol:
 if width or height is equal to 0, return an empty string
 repr() should return a string representation of the rectangle to be able to recreate a new instance by using eval()
 Print the message Bye rectangle... (... being 3 dots not ellipsis) when an instance of Rectangle is deleted
@@ -222,8 +208,7 @@ property def width(self): to retrieve it
 property setter def width(self, value): to set it:
 width must be an integer, otherwise raise a TypeError exception with the message width must be an integer
 if width is less than 0, raise a ValueError exception with the message width must be >= 0
-Private instance attribute: height:
-property def height(self): to retrieve it
+Private instance attribute: height: property def height(self): to retrieve it
 property setter def height(self, value): to set it:
 height must be an integer, otherwise raise a TypeError exception with the message height must be an integer
 if height is less than 0, raise a ValueError exception with the message height must be >= 0
@@ -238,13 +223,11 @@ Can be any type
 Instantiation with optional width and height: def __init__(self, width=0, height=0):
 Public instance method: def area(self): that returns the rectangle area
 Public instance method: def perimeter(self): that returns the rectangle perimeter:
-if width or height is equal to 0, perimeter has to be equal to 0
-print() and str() should print the rectangle with the character #:
+if width or height is equal to 0, perimeter has to be equal to 0print() and str() should print the rectangle with the character #:
 if width or height is equal to 0, return an empty string
 repr() should return a string representation of the rectangle to be able to recreate a new instance by using eval()
 Print the message Bye rectangle... (... being 3 dots not ellipsis) when an instance of Rectangle is deleted
-Static method def bigger_or_equal(rect_1, rect_2): that returns the biggest rectangle based on the area
-rect_1 must be an instance of Rectangle, otherwise raise a TypeError exception with the message rect_1 must be an instance of Rectangle
+Static method def bigger_or_equal(rect_1, rect_2): that returns the biggest rectangle based on the arearect_1 must be an instance of Rectangle, otherwise raise a TypeError exception with the message rect_1 must be an instance of Rectangle
 rect_2 must be an instance of Rectangle, otherwise raise a TypeError exception with the message rect_2 must be an instance of Rectangle
 Returns rect_1 if both have the same area value
 You are not allowed to import any module
@@ -264,8 +247,7 @@ if width is less than 0, raise a ValueError exception with the message width mus
 Private instance attribute: height:
 property def height(self): to retrieve it
 property setter def height(self, value): to set it:
-height must be an integer, otherwise raise a TypeError exception with the message height must be an integer
-if height is less than 0, raise a ValueError exception with the message height must be >= 0
+height must be an integer, otherwise raise a TypeError exception with the message height must be an integerif height is less than 0, raise a ValueError exception with the message height must be >= 0
 Public class attribute number_of_instances:
 Initialized to 0
 Incremented during each new instance instantiation
@@ -277,10 +259,8 @@ Can be any type
 Instantiation with optional width and height: def __init__(self, width=0, height=0):
 Public instance method: def area(self): that returns the rectangle area
 Public instance method: def perimeter(self): that returns the rectangle perimeter:
-if width or height is equal to 0, perimeter has to be equal to 0
-print() and str() should print the rectangle with the character #:
-if width or height is equal to 0, return an empty string
-repr() should return a string representation of the rectangle to be able to recreate a new instance by using eval()
+if width or height is equal to 0, perimeter has to be equal to 0print() and str() should print the rectangle with the character #:
+if width or height is equal to 0, return an empty stringrepr() should return a string representation of the rectangle to be able to recreate a new instance by using eval()
 Print the message Bye rectangle... (... being 3 dots not ellipsis) when an instance of Rectangle is deleted
 Static method def bigger_or_equal(rect_1, rect_2): that returns the biggest rectangle based on the area
 rect_1 must be an instance of Rectangle, otherwise raise a TypeError exception with the message rect_1 must be an instance of Rectangle
@@ -293,17 +273,16 @@ You are not allowed to import any module
 9-rectangle.py
 
 
-The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
+The N queens puzzle is the challenge of placing N non-attacking queens on an N�~WN chessboard. Write a program that solves the N queens problem.
 
 Usage: nqueens N
-If the user called the program with the wrong number of arguments, print Usage: nqueens N, followed by a new line, and exit with the status 1
-where N must be an integer greater or equal to 4
+If the user called the program with the wrong number of arguments, print Usage: nqueens N, followed by a new line, and exit with the status 1where N must be an integer greater or equal to 4
 If N is not an integer, print N must be a number, followed by a new line, and exit with the status 1
 If N is smaller than 4, print N must be at least 4, followed by a new line, and exit with the status 1
 The program should print every possible solution to the problem
 One solution per line
 Format: see example
-You don’t have to print the solutions in a specific order
+You don�~@~Yt have to print the solutions in a specific order
 You are only allowed to import the sys module
 
 101-nqueens.py
