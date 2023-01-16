@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-This module defines a base model class.
-"""
-
+"""This module defines a base model class."""
 import json
 import csv
 import turtle
