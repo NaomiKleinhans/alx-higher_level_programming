@@ -1,3 +1,5 @@
-$('#update_header').click(function () {
-	$('header').text('New Header!!!')
+$(document).ready(function () {
+	$('DIV#update_header').click(function () {
+		$('HEADER').text('New Header!!!')
+	})
 })
